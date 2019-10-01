@@ -6,10 +6,14 @@
        	//4 - Le nombre dans le cas où ce dernier n’est ni un multiple de 3 ni un multiple de 5
 
 
-//module.exports = 
+const fizzBuzz = val => {
+  if(val % 3 == 0 && val % 5 == 0) {
+		return 'fizzbuzz'
+  } else if (val % 5 == 0) {
+		return "buzz"
+	} else if (val % 3 == 0) {
+		return "fizz"
+	} else return val
+}
 
-function fizzBuzz(val) {
-    console.log("your code here");
-}  
-
-fizzBuzz(15);
+module.exports = fizzBuzz
