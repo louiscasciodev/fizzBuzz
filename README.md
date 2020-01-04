@@ -1,1 +1,3 @@
 # fizzBuzz
+
+**Exercice d'algo**
